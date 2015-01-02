@@ -613,7 +613,11 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="quote" image="gears" selectedImage="gears" id="EiA-Wn-oDG"/>
+                    <tabBarItem key="tabBarItem" title="quote" image="gears" selectedImage="gears" id="EiA-Wn-oDG">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="gears"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qlK-m6-6zM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -721,7 +725,11 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="thread" image="yellow-notes" selectedImage="yellow-notes" id="0Cs-x9-C08"/>
+                    <tabBarItem key="tabBarItem" title="thread" image="yellow-notes" selectedImage="yellow-notes" id="0Cs-x9-C08">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="yellow-notes"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AP2-vL-sek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -896,7 +904,11 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="tools" selectedImage="tools" id="Gwu-KV-ADS"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="tools" selectedImage="tools" id="Gwu-KV-ADS">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="tools"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nfT-eN-cXz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1015,7 +1027,11 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Category" image="box" selectedImage="box" id="JA9-M5-RBu"/>
+                    <tabBarItem key="tabBarItem" title="Category" image="box" selectedImage="box" id="JA9-M5-RBu">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="box"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="apd-yt-OCJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1358,7 +1374,11 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="home" image="Home" selectedImage="Home" id="nWV-nn-5if"/>
+                    <tabBarItem key="tabBarItem" title="home" image="Home" selectedImage="box" id="nWV-nn-5if">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="Home"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rYc-GC-fxL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1630,9 +1650,12 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="jOD-Kk-gqj" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <keyCommands>
+                        <keyCommand/>
+                    </keyCommands>
                     <nil key="simulatedTopBarMetrics"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="3Qp-vp-E8w">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="3Qp-vp-E8w">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
