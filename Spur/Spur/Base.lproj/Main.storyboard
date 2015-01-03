@@ -487,6 +487,109 @@
             </objects>
             <point key="canvasLocation" x="1940" y="788.25"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Qvx-YE-OeL">
+            <objects>
+                <viewController id="Qe8-zI-PXr" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="14G-p2-5IO"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fvf-qw-cU3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3cr-95-dwd">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add quotes to new thread" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lvT-Od-Lqp">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.47058823529999999" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="EyT-3U-Jw9">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <segments>
+                                    <segment title="All from category"/>
+                                    <segment title="Select one by one"/>
+                                </segments>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="16" y="118" width="568" height="29"/>
+                                </variation>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="bYT-51-dNR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="16" y="154" width="568" height="551"/>
+                                </variation>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47x-yj-ebA">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Add quotes">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="47x-yj-ebA" firstAttribute="top" secondItem="bYT-51-dNR" secondAttribute="bottom" constant="20" id="8Dp-jw-FKB"/>
+                            <constraint firstAttribute="centerX" secondItem="lvT-Od-Lqp" secondAttribute="centerX" id="BT6-FW-Mt0"/>
+                            <constraint firstItem="Fvf-qw-cU3" firstAttribute="top" secondItem="47x-yj-ebA" secondAttribute="bottom" constant="8" id="Cmw-Ox-AaR"/>
+                            <constraint firstItem="lvT-Od-Lqp" firstAttribute="top" secondItem="14G-p2-5IO" secondAttribute="bottom" id="JX8-ce-Vq6"/>
+                            <constraint firstItem="EyT-3U-Jw9" firstAttribute="leading" secondItem="3cr-95-dwd" secondAttribute="leadingMargin" id="JoU-qV-vLn"/>
+                            <constraint firstItem="bYT-51-dNR" firstAttribute="trailing" secondItem="3cr-95-dwd" secondAttribute="trailingMargin" id="Pex-BP-QCj"/>
+                            <constraint firstItem="bYT-51-dNR" firstAttribute="top" secondItem="EyT-3U-Jw9" secondAttribute="bottom" constant="8" id="SgD-i3-YKS"/>
+                            <constraint firstItem="bYT-51-dNR" firstAttribute="leading" secondItem="3cr-95-dwd" secondAttribute="leadingMargin" id="Y44-RE-TJq"/>
+                            <constraint firstAttribute="centerX" secondItem="47x-yj-ebA" secondAttribute="centerX" id="cAi-H8-qgl"/>
+                            <constraint firstItem="EyT-3U-Jw9" firstAttribute="trailing" secondItem="3cr-95-dwd" secondAttribute="trailingMargin" id="goX-ep-GLW"/>
+                            <constraint firstItem="EyT-3U-Jw9" firstAttribute="top" secondItem="lvT-Od-Lqp" secondAttribute="bottom" constant="40" id="va3-zh-T55"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="lvT-Od-Lqp"/>
+                                <exclude reference="EyT-3U-Jw9"/>
+                                <exclude reference="bYT-51-dNR"/>
+                                <exclude reference="47x-yj-ebA"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="JoU-qV-vLn"/>
+                                <exclude reference="goX-ep-GLW"/>
+                                <exclude reference="va3-zh-T55"/>
+                                <exclude reference="Pex-BP-QCj"/>
+                                <exclude reference="SgD-i3-YKS"/>
+                                <exclude reference="Y44-RE-TJq"/>
+                                <exclude reference="BT6-FW-Mt0"/>
+                                <exclude reference="JX8-ce-Vq6"/>
+                                <exclude reference="Cmw-Ox-AaR"/>
+                                <exclude reference="8Dp-jw-FKB"/>
+                                <exclude reference="cAi-H8-qgl"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="subviews">
+                                <include reference="lvT-Od-Lqp"/>
+                                <include reference="EyT-3U-Jw9"/>
+                                <include reference="bYT-51-dNR"/>
+                                <include reference="47x-yj-ebA"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="JoU-qV-vLn"/>
+                                <include reference="goX-ep-GLW"/>
+                                <include reference="va3-zh-T55"/>
+                                <include reference="Pex-BP-QCj"/>
+                                <include reference="SgD-i3-YKS"/>
+                                <include reference="Y44-RE-TJq"/>
+                                <include reference="BT6-FW-Mt0"/>
+                                <include reference="JX8-ce-Vq6"/>
+                                <include reference="Cmw-Ox-AaR"/>
+                                <include reference="8Dp-jw-FKB"/>
+                                <include reference="cAi-H8-qgl"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3gp-mj-yZJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2103" y="1603.5"/>
+        </scene>
         <!--quote-->
         <scene sceneID="7iW-JG-DH0">
             <objects>
@@ -1126,6 +1229,23 @@
             <point key="canvasLocation" x="3296" y="460.5"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="CRO-Qs-9F6">
+            <objects>
+                <viewController id="veZ-IL-pfq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3wZ-nY-riC"/>
+                        <viewControllerLayoutGuide type="bottom" id="hLT-sP-rsA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WJi-Fv-98A">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bq2-UV-knJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2103" y="2278.5"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="Hv7-vX-feQ">
             <objects>
                 <viewController id="tQo-Br-7SH" sceneMemberID="viewController">
@@ -1161,6 +1281,9 @@
                                     <color key="titleColor" red="0.90196078430000004" green="0.25882352939999997" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Qe8-zI-PXr" kind="show" identifier="seg_add_quotes_from_create_thread" id="bDa-Z1-cRw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rzJ-IQ-eGc">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -1187,6 +1310,9 @@
                                     <color key="titleColor" red="0.90196078430000004" green="0.25882352939999997" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="veZ-IL-pfq" kind="show" identifier="seg_planification_from_create_thread" id="mf9-ka-NWa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2294,6 +2420,6 @@
         <segue reference="pDJ-d7-d0c"/>
         <segue reference="iyc-Cq-htd"/>
         <segue reference="b04-iO-lxL"/>
-        <segue reference="6b7-Bm-UX3"/>
+        <segue reference="7mN-EV-e5N"/>
     </inferredMetricsTieBreakers>
 </document>
