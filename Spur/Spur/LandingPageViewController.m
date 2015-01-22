@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 Shokunin-Software. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LandingPageViewController.h"
 
-@interface ViewController ()
+@interface LandingPageViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LandingPageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

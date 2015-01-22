@@ -10,7 +10,7 @@
 		E337ED7F1A552F2000901AD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E337ED7E1A552F2000901AD3 /* main.m */; };
 		E337ED821A552F2000901AD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E337ED811A552F2000901AD3 /* AppDelegate.m */; };
 		E337ED851A552F2000901AD3 /* Spur.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E337ED831A552F2000901AD3 /* Spur.xcdatamodeld */; };
-		E337ED881A552F2000901AD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E337ED871A552F2000901AD3 /* ViewController.m */; };
+		E337ED881A552F2000901AD3 /* LandingPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E337ED871A552F2000901AD3 /* LandingPageViewController.m */; };
 		E337ED8B1A552F2000901AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E337ED891A552F2000901AD3 /* Main.storyboard */; };
 		E337ED8D1A552F2000901AD3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E337ED8C1A552F2000901AD3 /* Images.xcassets */; };
 		E337ED901A552F2000901AD3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E337ED8E1A552F2000901AD3 /* LaunchScreen.xib */; };
@@ -34,8 +34,8 @@
 		E337ED801A552F2000901AD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E337ED811A552F2000901AD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E337ED841A552F2000901AD3 /* Spur.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spur.xcdatamodel; sourceTree = "<group>"; };
-		E337ED861A552F2000901AD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E337ED871A552F2000901AD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E337ED861A552F2000901AD3 /* LandingPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandingPageViewController.h; sourceTree = "<group>"; };
+		E337ED871A552F2000901AD3 /* LandingPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandingPageViewController.m; sourceTree = "<group>"; };
 		E337ED8A1A552F2000901AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E337ED8C1A552F2000901AD3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E337ED8F1A552F2000901AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 			children = (
 				E337ED801A552F2000901AD3 /* AppDelegate.h */,
 				E337ED811A552F2000901AD3 /* AppDelegate.m */,
-				E337ED861A552F2000901AD3 /* ViewController.h */,
-				E337ED871A552F2000901AD3 /* ViewController.m */,
+				E337ED861A552F2000901AD3 /* LandingPageViewController.h */,
+				E337ED871A552F2000901AD3 /* LandingPageViewController.m */,
 				E337ED891A552F2000901AD3 /* Main.storyboard */,
 				E337ED8C1A552F2000901AD3 /* Images.xcassets */,
 				E337ED8E1A552F2000901AD3 /* LaunchScreen.xib */,
@@ -224,7 +224,7 @@
 			files = (
 				E337ED821A552F2000901AD3 /* AppDelegate.m in Sources */,
 				E337ED851A552F2000901AD3 /* Spur.xcdatamodeld in Sources */,
-				E337ED881A552F2000901AD3 /* ViewController.m in Sources */,
+				E337ED881A552F2000901AD3 /* LandingPageViewController.m in Sources */,
 				E337ED7F1A552F2000901AD3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +420,7 @@
 				E337EDA11A552F2100901AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E337EDA21A552F2100901AD3 /* Build configuration list for PBXNativeTarget "SpurTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				E337EDA41A552F2100901AD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
